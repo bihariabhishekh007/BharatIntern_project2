@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(166, 204, 219);
+    transition: 0.5s;
+}
+.container{ 
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px; background: #fff;
+    border-color: red;
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px  rgba(0, 0, 0, 0.1);
+
+}
+.temperature{
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+label{
+    margin: 20px 0 6px 12px;
+}
+.title{
+    text-align: center;
+}
